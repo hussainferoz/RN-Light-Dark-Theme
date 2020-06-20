@@ -1,21 +1,19 @@
 import React from 'react';
-import Styled from 'styled-components/native';
 
-import { Text } from 'react-native';
+import { Container, TextContainer, Text, ButtonContainer, ButtonText } from '../Styles';
 
 const Home = () => {
 	return (
 		<Container>
-			<Text>Trying Styled Components!</Text>
+			<TextContainer>
+				<Text>This is a light theme!</Text>
+			</TextContainer>
+
+			<ButtonContainer>
+				<ButtonText>Switch to dark theme</ButtonText>
+			</ButtonContainer>
 		</Container>
 	);
 };
 
 export default Home;
-
-const Container = Styled.View`
-    flex: 1;
-    background-color: #fff;
-    align-items: center;
-    justify-content: center;
-`;
