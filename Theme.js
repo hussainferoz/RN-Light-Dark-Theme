@@ -13,5 +13,5 @@ export const lightTheme = {
 	TEXT_COLOR: '#212121',
 	BUTTON_COLOR: '#8022d9',
 	BUTTON_TEXT_COLOR: '#fff',
-	STATUS_BAR_STYLE: 'default'
+	STATUS_BAR_STYLE: 'dark-content'
 };
